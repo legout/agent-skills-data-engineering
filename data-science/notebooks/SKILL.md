@@ -83,21 +83,22 @@ api_key = "sk-abc123..."
 
 ## Jupyter best practices
 
-### Magic commands
+### Magic commands (Jupyter/IPython)
 
 ```python
+# In a Jupyter cell (these are IPython magics, not standard Python)
 # Auto-reload modules during development
-%load_ext autoreload
-%autoreload 2
+# %load_ext autoreload
+# %autoreload 2
 
 # Timing
-%timeit function_call()
+# %timeit function_call()
 
 # Debugging
-%debug
+# %debug
 
-# Environment info
-%watermark -v -m -p numpy,pandas,sklearn
+# Environment info (requires watermark package)
+# %watermark -v -m -p numpy,pandas,sklearn
 ```
 
 ### Clean outputs before git
