@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+
+# Dev-only project docs (intentionally excluded)
+ARCHITECTURE_DECISIONS.md
+INTEGRATION_SUMMARY.md
+
+# Caches
+.ruff_cache/
