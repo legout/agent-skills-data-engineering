@@ -16,7 +16,7 @@ Install specific skills:
 npx skills add legout/data-platform-agent-skills \
   --skill data-engineering-core \
   --skill data-science-eda \
-  --skill data-science-notebooks
+  --skill data-science-visualization
 ```
 
 Install all skills:
@@ -29,7 +29,7 @@ npx skills add legout/data-platform-agent-skills --skill '*'
 
 - `skills/` — installable skill directories (for `npx skills` discovery)
 - `data-engineering/` — data engineering source content
-- `data-science/` — data science, notebooks, and interactive apps
+- `data-science/` — data science, visualization, notebooks, and interactive apps
 - `flowerpower-skill/` — FlowerPower skill package
 - `tools/` — utility scripts
 
@@ -41,8 +41,9 @@ npx skills add legout/data-platform-agent-skills --skill '*'
 - Orchestration: Prefect, Dagster, dbt
 - Quality, Observability, Streaming
 
-### Data Science (5 skills)
+### Data Science (8 skills)
 - **EDA** — Exploratory Data Analysis
+- **Visualization** — Matplotlib, Seaborn, Plotly, Altair, HoloViz, Bokeh
 - **Feature Engineering** — ML feature preparation
 - **Model Evaluation** — Validation and tuning
 - **Notebooks** — Jupyter, marimo
