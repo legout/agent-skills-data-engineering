@@ -1,5 +1,5 @@
-# Generated skills directory (build from source)
-skills/
+# Generated skills directory - now committed for npx skills compatibility
+# skills/
 
 # Python
 __pycache__/
